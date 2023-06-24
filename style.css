@@ -1,0 +1,28 @@
+body {
+  color: white;
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+.main {
+  background-color: #fea600;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+}
+button {
+  padding: 20px 30px 20px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 60px;
+  border-radius: 5px;
+}
+button:hover{
+  color: #fea600;
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
